@@ -20,3 +20,4 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: echo "hello world"
+    - run: node index.js
